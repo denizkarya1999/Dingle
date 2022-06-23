@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DC58E87B-3587-4F89-A901-1F9723CCDA9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dingle.Web", "Dingle\Dingle.Web\Dingle.Web.csproj", "{2EE210C0-CCE3-41A0-BA95-34B3BAE7847C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dingle.Shared", "Dingle\Dingle.Shared\Dingle.Shared.csproj", "{77945278-D074-4E9F-B428-C9068CEDA4AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dingle.Core", "Dingle\Dingle.Core\Dingle.Core.csproj", "{BF3B8E05-A5F9-4789-A89D-276D132176C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dingle.Domain", "Dingle\Dingle.Domain\Dingle.Domain.csproj", "{95C100A2-997D-4E98-B278-B1F21109AB9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dingle.Api", "Dingle\Dingle.Api\Dingle.Api.csproj", "{623F95FC-ABA7-444B-B0A5-5143E7A496B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6FFD2A7C-D84A-461C-BFB3-E6CE70430B7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EE210C0-CCE3-41A0-BA95-34B3BAE7847C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE210C0-CCE3-41A0-BA95-34B3BAE7847C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE210C0-CCE3-41A0-BA95-34B3BAE7847C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE210C0-CCE3-41A0-BA95-34B3BAE7847C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77945278-D074-4E9F-B428-C9068CEDA4AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77945278-D074-4E9F-B428-C9068CEDA4AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77945278-D074-4E9F-B428-C9068CEDA4AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77945278-D074-4E9F-B428-C9068CEDA4AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF3B8E05-A5F9-4789-A89D-276D132176C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF3B8E05-A5F9-4789-A89D-276D132176C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF3B8E05-A5F9-4789-A89D-276D132176C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF3B8E05-A5F9-4789-A89D-276D132176C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C100A2-997D-4E98-B278-B1F21109AB9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C100A2-997D-4E98-B278-B1F21109AB9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C100A2-997D-4E98-B278-B1F21109AB9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C100A2-997D-4E98-B278-B1F21109AB9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{623F95FC-ABA7-444B-B0A5-5143E7A496B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{623F95FC-ABA7-444B-B0A5-5143E7A496B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{623F95FC-ABA7-444B-B0A5-5143E7A496B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{623F95FC-ABA7-444B-B0A5-5143E7A496B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2EE210C0-CCE3-41A0-BA95-34B3BAE7847C} = {DC58E87B-3587-4F89-A901-1F9723CCDA9C}
+		{77945278-D074-4E9F-B428-C9068CEDA4AA} = {DC58E87B-3587-4F89-A901-1F9723CCDA9C}
+		{BF3B8E05-A5F9-4789-A89D-276D132176C1} = {DC58E87B-3587-4F89-A901-1F9723CCDA9C}
+		{95C100A2-997D-4E98-B278-B1F21109AB9E} = {DC58E87B-3587-4F89-A901-1F9723CCDA9C}
+		{623F95FC-ABA7-444B-B0A5-5143E7A496B5} = {DC58E87B-3587-4F89-A901-1F9723CCDA9C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F88FDF9D-C995-4D08-A955-8A0216B7BB24}
+	EndGlobalSection
+EndGlobal
